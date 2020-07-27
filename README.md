@@ -1,18 +1,22 @@
-# Tail-utility
-A simplified version of the Linux tail utility
+<h1 align="center" > Tail-utility </h1>
+<p align="center">A simplified version of the Linux tail utility</p>
+<p align="center"><img src="./resources/tail.gif"></img></p>
 
-which is used for viewing the last portion of a long text file. tail is generally useful for viewing the last few lines
+It is used for viewing the last portion of a long text file. tail is generally useful for viewing the last few lines
 in long log files that the operating system produces (for example the /var/log/kern.log)
 file in your virtual machine environment). Linux server administrators use the tail utility for
 checking recent activity in network logs.
 
 
+
+
+
 ## Instructions
 
 
+
+
 ```
-
-
 ctail   User Commands
 
 Name
@@ -88,4 +92,7 @@ Overall Limitation:
       For any integer value with string-like -n a2 then there is an error, but the string-like 2a it would consider as it 2.
       It is better not to combine the integer with a string, especially for the digit argument.
       For the argument which is more than the number of either total lines or characters in the file, it output everything without any warning or suitable message for it.
-      ```
+```
+<p>
+<img src="./resources/command.png"></img>
+</P>
