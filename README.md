@@ -93,6 +93,6 @@ Overall Limitation:
       It is better not to combine the integer with a string, especially for the digit argument.
       For the argument which is more than the number of either total lines or characters in the file, it output everything without any warning or suitable message for it.
 ```
-<p>
+<p  align="center">
 <img src="./resources/command.png"></img>
 </P>
